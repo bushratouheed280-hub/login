@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.bg {
+    background-color: rgb(103, 200, 207);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    background-color: aliceblue;
+    border-radius: 20px;
+    width: 300px;
+    padding: 20px 40px;
+}
+
+.login>h2 {
+    text-align: center;
+}
+
+.login>form {
+    text-align: center;
+}
+
+.login>button {
+    width: 240px;
+    height: 30px;
+    background-color: rgb(115, 197, 223);
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px 1px;
+}
+
+.login>a {
+    text-decoration: none;
+    color: rgb(15, 121, 115);
+}
+
+.login>p>a {
+    text-decoration: none;
+    color: rgb(15, 121, 115);
+}
+.form>input{ padding: 1;}
